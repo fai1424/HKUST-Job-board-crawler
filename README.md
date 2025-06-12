@@ -26,8 +26,8 @@ A Python script to scrape job listings from the HKUST career website and export 
    ```
 
 2. Update the configuration in `fetch.py`:
-   - Replace `<PASTE_THE_ENDPOINT_HERE>` with your desired job search parameters
-   - Replace `<CHANGE_TO_YOUR_OWN_COOKIES>` with valid session cookies
+   - Replace `<PASTE_THE_ENDPOINT_HERE>` with your desired job search parameters, the best way to do so is go to https://career.hkust.edu.hk/web/job.php manually, setup your desired parameter, like internship, job roles, etc, click search and go to page two. Your url should look something like 'https://career.hkust.edu.hk/web/job.php?page=3&EMT%5B0%5D=4&EMT%5B1%5D=11&JN%5B0%5D=13'. Copy the strings after page=?& and replace it, e.g. 'EMT%5B0%5D=4&EMT%5B1%5D=11&JN%5B0%5D=13' in the above example.
+   - Replace `<CHANGE_TO_YOUR_OWN_COOKIES>` with valid session cookies, the best way to do so is go to https://career.hkust.edu.hk/web/job.php manually. Then press F12 -> Application -> Cookie, find the thing start with 'PHPSESSION = xxx' copy the whole thing to replace. example: 'PHPSESSID=712y873717129371289371287389123789123812981'
 
 ## Usage
 
