@@ -1,6 +1,6 @@
-# HKUST Job Board Scraper
+# HKUST Job Board Crawler
 
-A Python script to scrape job listings from the HKUST career website and export them to Excel.
+A Python script to crawl job listings from the HKUST career website and export them to Excel.
 
 ## Features
 
@@ -55,4 +55,3 @@ The script will:
 
 - Make sure to update cookies periodically as they expire
 - The script respects application deadlines and only processes current jobs
-- Generated Excel files are automatically excluded from git (see .gitignore)

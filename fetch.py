@@ -3,6 +3,12 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import pandas as pd
 
+url = "https://career.hkust.edu.hk/web"
+base_endpoint = "/job.php?page={}&<PASTE_THE_ENDPOINT_HERE>"
+cookies = "<CHANGE_TO_YOUR_OWN_COOKIES>"
+
+
+
 
 def extract_job_details(soup):
     """Extract specific job details from the job detail page"""
